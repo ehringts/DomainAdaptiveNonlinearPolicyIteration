@@ -1,4 +1,4 @@
-# Unsymmetric kernel-based policy iteration
+# Domain Adaptive Nonlinear Policy Iteration
 
 Numerical experiments on the influence of the computational domain on policy iteration for infinite-horizon nonlinear optimal control. The main experiment compares a fixed computational domain with a sequence of contracted domains. 
 
