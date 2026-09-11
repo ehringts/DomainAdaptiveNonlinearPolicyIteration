@@ -20,7 +20,7 @@ python example.py
 The script computes the PMP reference values, runs both policy-iteration variants, and saves `figures/counterexample_pmp.pdf`. It also displays the figure. For execution without a graphical display:
 
 ```bash
-MPLBACKEND=Agg python counterexample.py
+MPLBACKEND=Agg python example.py
 ```
 
 ## Main experiment
