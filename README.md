@@ -1,6 +1,6 @@
 # Unsymmetric kernel-based policy iteration
 
-Numerical experiments on the influence of the computational domain on policy iteration for infinite-horizon nonlinear optimal control. The main experiment compares a fixed computational domain with a sequence of contracted domains. Additional scripts study the controlled Van der Pol oscillator.
+Numerical experiments on the influence of the computational domain on policy iteration for infinite-horizon nonlinear optimal control. The main experiment compares a fixed computational domain with a sequence of contracted domains. 
 
 The implementation accompanies:
 
