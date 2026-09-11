@@ -126,14 +126,6 @@ KERNEL = kernel.make_kernel('matern', case=2)    # Default gamma: 2.0
 
 Pass `gamma=...` to choose a different shape parameter. The available radial kernels are the Matérn kernel used in the original implementation and the compactly supported Wendland C4 kernel. Both are multiplied by $(x^\top y)^2$, enforcing $\widehat v(0)=0$ and $\nabla\widehat v(0)=0$.
 
-## Additional Van der Pol experiments
 
-Run these scripts from the repository root:
-
-| Command | Output in `figures/` |
-| --- | --- |
-| `python plot_initial_phase_portraits.py` | `initial_phase_portraits.pdf` |
-| `python plot_policy_iteration_errors.py` | `policy_iteration_errors.pdf` |
-| `python plot_nested_domains.py` | `nested_domain_portrait.pdf` |
 
 These experiments use the shared routines in `functions/auxFunctions.py`, with `functions/observer.py` and `functions/plotStyle.py` providing iteration history and plot settings. The Van der Pol error experiment caches reference values and error histories in `data/`; remove the corresponding `.npz` files when recomputing after parameter changes.
