@@ -52,7 +52,7 @@ Both variants use the same unsymmetric kernel collocation: policy evaluation dis
 
 ### Experiment settings
 
-To reproduce the refined-grid configuration, use the following line in the main block of `counterexample.py`:
+To reproduce the refined-grid configuration, use the following line in the main block of `example.py`:
 
 ```python
 training, tests = disk_grid(50), disk_grid(40, .49)
