@@ -11,10 +11,10 @@ The implementation accompanies:
 Use Python 3.10 or newer with NumPy, SciPy, and Matplotlib. Run the following commands from a terminal:
 
 ```bash
-git clone https://github.com/ehringts/UnsymmetricRKHSPI.git
-cd UnsymmetricRKHSPI
+git clone https://github.com/ehringts/DomainAdaptiveNonlinearPolicyIteration.git   
+cd DomainAdaptiveNonlinearPolicyIteration
 python -m pip install numpy scipy matplotlib
-python counterexample.py
+python example.py
 ```
 
 The script computes the PMP reference values, runs both policy-iteration variants, and saves `figures/counterexample_pmp.pdf`. It also displays the figure. For execution without a graphical display:
